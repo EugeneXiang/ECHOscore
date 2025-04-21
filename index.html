@@ -21,6 +21,8 @@
       margin-top: 1em;
       text-decoration: none;
     }
+    /* giscus container spacing */
+    #giscus-container { margin-top: 3em; }
   </style>
 </head>
 <body>
@@ -40,6 +42,23 @@
     <p style="margin-top: 3em; font-size: 0.9em; color: #888;">
       Built by Eugene Xiang · Hosted on GitHub Pages · Open Source
     </p>
+
+    <!-- Giscus comments widget -->
+    <div id="giscus-container">
+      <script src="https://giscus.app/client.js"
+        data-repo="EugeneXiang/ECHOscore"
+        data-repo-id="REPLACE_WITH_YOUR_REPO_ID"
+        data-category="General"
+        data-category-id="REPLACE_WITH_YOUR_CATEGORY_ID"
+        data-mapping="pathname"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="light"
+        crossorigin="anonymous"
+        async>
+      </script>
+    </div>
   </div>
 </body>
 </html>
