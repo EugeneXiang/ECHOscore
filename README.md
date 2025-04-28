@@ -1,8 +1,7 @@
 
-# 🧠 ECHOscore: Evaluator Cockpit for Human Oversight
+# 🧠 ECHOscore: Evaluator Cockpit for Harmony Outcomes
 
-**ECHOscore** is an interactive evaluation cockpit for aligning human-centric judgment with LLM-based scoring systems. It enables **multi-dimensional assessment** across compliance, coherence, fluency, logic, and more — through both subjective human input and automated scoring engines.
-
+**ECHOscore** is a modular evaluation cockpit designed to measure not just the correctness of outputs, but the harmony between prompts and responses—the resonance that defines meaningful alignment.
 ---
 
 ## ✨ Features
