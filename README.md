@@ -4,6 +4,18 @@
 **ECHOscore** is a modular evaluation cockpit designed to measure not just the correctness of outputs, but the harmony between prompts and responses—the resonance that defines meaningful alignment.
 ---
 
+## 🌟 Why ECHOscore?
+ECHOscore is a **lightweight, modular evaluation tool** for LLM prompts and outputs.
+
+### 🚀 Features
+- ✅ Supports OpenAI, ChatCompletion, LaaJ, DeepEval, OVAL...
+- 🧠 Alternative to LangSmith, but simpler and more customizable
+- 📦 Plug-and-play scoring rubrics
+- 📊 Structured CSV export for QA teams
+- 🛠️ Python-native, easy integration with `eval.py` scripts
+
+### 💥 ECHOscore = Fast + Flexible + Free
+
 ## ✨ Features
 
 - 🧪 **Tri-system scoring**: Human, OVAL, and DeepEval
