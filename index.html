@@ -4,48 +4,98 @@
   <meta charset="UTF-8">
   <meta name="keywords" content="LLM evaluation, AI scoring, LangSmith alternative, OpenAI eval, DeepEval, ChatCompletion, prompt quality, structured output scoring">
   <meta name="description" content="ECHOscore is an open LLM evaluation framework for structured scoring, offering a fast and flexible alternative to commercial eval systems.">
-  <meta charset="UTF-8">
   <title>ECHOscore: Lightweight LLM Evaluation Tool for Prompt-Output Scoring</title>
   <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #f9f9f9; color: #222; }
+    body { 
+      font-family: 'Inter', sans-serif; 
+      margin: 0; 
+      background: #F5F4F9; 
+      color: #3C3A4F; 
+    }
+    
     .navbar {
       display: flex;
       align-items: center;
       padding: 1em 2em;
-      background-color: white;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      background-color: #F5F4F9; /* 与背景色一致 */
+      border-bottom: 1px solid #E4E2EB; /* 添加底部边框增强层次感 */
       margin-bottom: 2em;
     }
+    
     .logo-container {
       display: flex;
       align-items: center;
       text-decoration: none;
-      color: #333;
+      color: #3C3A4F;
     }
+    
     .logo {
       height: 40px;
       margin-right: 10px;
     }
-    h1 { color: #333; }
-    a { color: #0070f3; text-decoration: none; }
+    
+    h1 { color: #3C3A4F; }
+    a { color: #A5A1C2; text-decoration: none; }
     a:hover { text-decoration: underline; }
-    .container { max-width: 600px; margin: auto; text-align: center; padding: 0 1em; }
-    .tagline { font-style: italic; color: #666; margin-bottom: 2em; }
+    
+    .container { 
+      max-width: 600px; 
+      margin: auto; 
+      text-align: center; 
+      padding: 0 1em; 
+    }
+    
+    .tagline { 
+      font-style: italic; 
+      color: #B9B7CC; 
+      margin-bottom: 2em; 
+    }
+    
     .btn {
       display: inline-block;
       padding: 0.8em 1.4em;
-      background: #0070f3;
-      color: white;
+      background: #A5A1C2;
+      color: #F5F4F9;
       border-radius: 6px;
       font-weight: bold;
       margin-top: 1em;
       text-decoration: none;
+      transition: all 0.2s ease;
     }
+    
+    .btn:hover {
+      background-color: #8A86A9;
+      transform: translateY(-2px);
+    }
+    
     /* giscus container spacing */
     #giscus-container { margin-top: 3em; }
-    footer { margin-top: 3em; font-size: 0.9em; color: #888; text-align: center; padding-bottom: 2em; }
+    
+    footer { 
+      margin-top: 3em; 
+      font-size: 0.9em; 
+      color: #B9B7CC; 
+      text-align: center; 
+      padding-bottom: 2em; 
+    }
+    
+    /* 列表项颜色 */
+    ul {
+      color: #3C3A4F;
+    }
+    
+    /* 响应式设计 */
+    @media (max-width: 600px) {
+      .navbar {
+        padding: 0.8em 1em;
+      }
+      .logo {
+        height: 35px;
+      }
+    }
   </style>
   <script type="application/ld+json">
   {
