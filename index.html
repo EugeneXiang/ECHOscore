@@ -9,11 +9,29 @@
   <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body { font-family: Arial, sans-serif; margin: 2em; background: #f9f9f9; color: #222; }
+    body { font-family: Arial, sans-serif; margin: 0; background: #f9f9f9; color: #222; }
+    .navbar {
+      display: flex;
+      align-items: center;
+      padding: 1em 2em;
+      background-color: white;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      margin-bottom: 2em;
+    }
+    .logo-container {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: #333;
+    }
+    .logo {
+      height: 40px;
+      margin-right: 10px;
+    }
     h1 { color: #333; }
     a { color: #0070f3; text-decoration: none; }
     a:hover { text-decoration: underline; }
-    .container { max-width: 600px; margin: auto; text-align: center; }
+    .container { max-width: 600px; margin: auto; text-align: center; padding: 0 1em; }
     .tagline { font-style: italic; color: #666; margin-bottom: 2em; }
     .btn {
       display: inline-block;
@@ -27,6 +45,7 @@
     }
     /* giscus container spacing */
     #giscus-container { margin-top: 3em; }
+    footer { margin-top: 3em; font-size: 0.9em; color: #888; text-align: center; padding-bottom: 2em; }
   </style>
   <script type="application/ld+json">
   {
@@ -55,6 +74,13 @@
   </script>
 </head>
 <body>
+  <nav class="navbar">
+    <a href="#" class="logo-container">
+      <img src="https://raw.githubusercontent.com/EugeneXiang/ECHOscore-ai-evaluator/main/LOGO.png" alt="ECHOscore Logo" class="logo">
+      <span style="font-weight: bold; font-size: 1.2em;">ECHOscore</span>
+    </a>
+  </nav>
+
   <div class="container">
     <h1>✨ Welcome to ECHOscore</h1>
     <p class="tagline">
@@ -62,6 +88,7 @@
       Built for practitioners, designed for explainability.
     </p>
     
+    <p>
       💬 Subjective | 🧠 Logical | 📜 Ethical<br>
       ECHOscore helps you review prompts & outputs beyond just "right or wrong".
     </p>
@@ -97,9 +124,9 @@
       </script>
     </div>
   </div>
-   <footer style="margin-top: 3em; font-size: 0.9em; color: #888; text-align: center;">
-  Built by <strong>Eugene Xiang</strong> · Hosted on GitHub Pages · 
-  <a href="https://github.com/EugeneXiang/ECHOscore" target="_blank" style="color: #666; text-decoration: none;">Open Source</a>
+  <footer>
+    Built by <strong>Eugene Xiang</strong> · Hosted on GitHub Pages · 
+    <a href="https://github.com/EugeneXiang/ECHOscore" target="_blank" style="color: #666; text-decoration: none;">Open Source</a>
   </footer>
 </body>
 </html>
