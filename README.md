@@ -81,5 +81,5 @@ For development and commercial usage inquiries, please contact the author.
 
 ## 🤝 Acknowledgments
 
-Built with ❤️ by a human-AI co-pilot team.
+Built with ❤️ by Eugene Xiang
 
